@@ -1,26 +1,37 @@
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+    }
+    .container-1 {
+        display: flex;
+        justify-content: space-between;
+    } 
+    
+}
 
 
-.container {
-    display: flex;
+
+
+.container-1 div {
+    padding: 10px;
 } 
-
 .nav_flex{
     margin: 1.5rem;
     list-style-type: none; 
 }
 
-.flexbox_container{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
+.flex_box-1{
+    flex:1;
+}
+.flex_box-2{
+   
 }
 
-.flexbox_item{
-    width: 200px;
-    margin: 10px;
-    border: 3px black;
-   
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+footer{
+    background-color: goldenrod;
 }
